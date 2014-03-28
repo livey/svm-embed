@@ -15,5 +15,6 @@ Label:value1:value2:....:valueN
 
 each line ended up with a 'enter' symbol, except the last line.
 
-## reference 
-
+## Reference
+[1]Cortes, Corinna, and Vladimir Vapnik. "Support vector machine." Machine learning 20.3 (1995): 273-297.
+[2]Suykens, Johan AK, and Joos Vandewalle. "Least squares support vector machine classifiers." Neural processing letters 9.3 (1999): 293-300.
