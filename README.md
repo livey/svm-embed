@@ -1,7 +1,8 @@
 svm-embed support vector machine for embedded system. 
 
 Svm_embed is a simplified vector machine for embedded systems. In such systems, the computing resources like RAM, ROM and Computing, are strictly constrained. Sometimes we attempt to do some simple classifications in such embedded systems. For example, we detect if the input signal is a sine wave or a square wave. Svm_embed is the right choice. Svm_embed performs in the off-line training stage, after that you will get an training model. That is, it is a vector indicating the separating hyper plane. In the final step, it automatically generates the model.h file, which has a predicting function. You just need to simply include the model.h file in your program and happily use it. In consideration of computing and memory resources, I just implement the linear kernel. I believe this is the best choice for embedded systems.
-Usage:
+
+## Usage:
 ------
 The command line -f data 
 Here,data stands for the training datasets file. In the later version,some more features will be added in.
